@@ -1,34 +1,24 @@
-# dependencies
-node_modules/
-.pnp
-.pnp.js
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# testing
-coverage/
+node_modules
+dist
+dist-ssr
+*.local
 
-# production build
-dist/
-
-# misc
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# local env files
-.env
-.env.local
-.env.*.local
-
-# IDE settings
-.vscode/
-.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
